@@ -4,11 +4,9 @@
 
 ## Motivation
 
-This application is used to demonstrate spring boot framework, maven, MVC, and restful endpoints. The application currently uses 2 APIS,
+This application is used to demonstrate Spring Boot framework, maven, MVC, and REST APIs. The application currently uses 2 thrid party APIs,
 1. [The Dog API](https://docs.thedogapi.com/)
 2. [The Twitch API](https://dev.twitch.tv/docs/)
-
-More features to come include a user friendly frontend, writing to the mysql server, docker, kubernetes, coherence 
 
 ## Tech/Framework Used and Other Documentation
 
@@ -28,14 +26,14 @@ MySQL version 8.0.19
 
 Please follow these steps to run this application:
 
-1. Install a local [sql server](https://dev.mysql.com/downloads/mysql/) version 5.6 or better
+1. Install a local [MySQL server](https://dev.mysql.com/downloads/mysql/) version 5.6 or better
 2. mysql.server start
 3. pull the repository to a folder (Remember where this is)
 
 
 ## How To Use
 
-1. **HAVE TO DO BEFORE STARTING APPLICATION** If you didnt start a local MySQL server do so now using by typing, "mysql.server start" in termainl
+1. If you didnt start a local MySQL server do so now by typing in terminal, `mysql.server start` 
 
 There are 2 ways you can start this application,
    - opening the project using intellij and running TheUltimateList.main()
@@ -56,6 +54,15 @@ http://localhost:8080/dog?name=german
 
 In the above examples you can set name to whatever you like
 
+## Future Updates
+
+More features to come:
+
+ - user friendly frontend
+ - Writing to the MySQL Server
+ - Docker
+ - Kubernetes
+ - Coherence
 
 
 
