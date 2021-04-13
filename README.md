@@ -4,7 +4,7 @@
 
 ## Motivation
 
-This application is used to demonstrate spring boot framework, maven, MVC, and restful endpoints. Im currently using 2 APIS,
+This application is used to demonstrate spring boot framework, maven, MVC, and restful endpoints. The application currently uses 2 APIS,
 1. [The Dog API](https://docs.thedogapi.com/)
 2. [The Twitch API](https://dev.twitch.tv/docs/)
 
@@ -26,7 +26,8 @@ MySQL version 8.0.19
 
 ## Installation
 
-You will have to follow these steps to run this application:
+Please follow these steps to run this application:
+
 1. Install a local [sql server](https://dev.mysql.com/downloads/mysql/) version 5.6 or better
 2. mysql.server start
 3. pull the repository to a folder (Remember where this is)
@@ -43,7 +44,7 @@ There are 2 ways you can start this application,
 
 Once its started you can access 2 different endpoints, one to get all the video games with the passed in name and one to get the breed of dog with the passed in name
 
-### Example:
+### Example Endpoints:
 
 http://localhost:8080/searchgames?name=halo
 
