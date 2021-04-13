@@ -2,7 +2,7 @@
 
 
 
-## Motivation
+## Description
 
 This application is used to demonstrate Spring Boot framework, maven, MVC, and REST APIs. The application currently uses 2 thrid party APIs,
 1. [The Dog API](https://docs.thedogapi.com/)
