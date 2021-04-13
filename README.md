@@ -32,27 +32,22 @@ Please follow these steps to run this application:
 
 
 ## How To Use
-
-1. If you didnt start a local MySQL server do so now by typing in terminal, `mysql.server start` 
+ 
+If you didnt start a local MySQL server do so now by typing in terminal, `mysql.server start` 
 
 There are 2 ways you can start this application,
    - opening the project using intellij and running TheUltimateList.main()
-   - In terminal navigate to the root folder of the project and type, "mvn spring-boot:run"
+   - In terminal navigate to the root folder of the project and type, `mvn spring-boot:run`
  
 
 Once its started you can access 2 different endpoints, one to get all the video games with the passed in name and one to get the breed of dog with the passed in name
 
-### Example Endpoints:
+You can search for video game titles by using the `/searchgames` API and passing a name query parameter
+example : http://localhost:8080/searchgames?name=halo
 
-http://localhost:8080/searchgames?name=halo
+You can search for dog breeds by using the `/dog` API and passing a name query parameter
+example : http://localhost:8080/dog?name=husky
 
-http://localhost:8080/searchgames?name=god%20of%20war
-
-http://localhost:8080/dog?name=husky
-
-http://localhost:8080/dog?name=german
-
-In the above examples you can set name to whatever you like
 
 ## Future Updates
 
