@@ -11,6 +11,21 @@ This application is used to demonstrate Spring Boot framework, maven, MVC, and R
 ## Tech/Framework Used and Other Documentation
 
 The backend uses java sdk 16, [This guide will help get java sdk 16 on your computer if you're using mac. Go to step 3](https://mkyong.com/java/how-to-install-java-on-mac-osx/#homebrew-install-a-specified-java-adoptopenjdk-on-macos)
+*If you dont have java 16 installed you can change the version in the `pom.xml` file. Change `<java.version>your_version</java.version>`, `<source>your_version</source>` and `<target>your_version</target>`
+
+```
+<properties>
+  <java.version>16</java.version>
+</properties>
+```
+
+
+```
+<configuration>
+  <source>15</source>
+  <target>15</target>
+</configuration>
+```
 
 Spring version 2.4.4
 
@@ -26,7 +41,7 @@ MySQL version 8.0.19
 
 Please follow these steps to run this application:
 
-1. Install a local [MySQL server](https://dev.mysql.com/downloads/mysql/) version 5.6 or better
+1. Install a local MySQL Server, `brew install mysql`
 2. mysql.server start
 3. pull the repository to a folder (Remember where this is)
 
